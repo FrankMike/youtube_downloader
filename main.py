@@ -24,7 +24,7 @@ def check_playlist_link(link):
 
 
 if __name__ == "__main__":
-    print('\n Youtube Downloader\n')
+    print('\nYoutube Downloader\n')
     video_link = None
     if cfg.auto_paste is True:
         video_link = pyperclip.paste()
